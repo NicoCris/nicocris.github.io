@@ -2,7 +2,9 @@
 Creacion de primer repositorio en Github para la Práctica Formativa Obligatoria 1 en el IFTS N° 29
 
 Checklist
+
 • Estructura del Proyecto:
+
 [ ] Archivo "index.html" ubicado en la raíz.
 [ ] Carpeta "css" que contenga el archivo "styles.css".
 [ ] (Opcional) Carpeta "img" para recursos gráfi cos.
