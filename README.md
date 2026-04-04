@@ -7,9 +7,9 @@ Creacion de primer repositorio en Github para la Práctica Formativa Obligatoria
 Se basa en el primer proyecto creado en un repositorio en Github y se efectua el deploy a través de Vercel. 
 Asimismo, se realizó el mismo siguiendo los lineamienrtos acorde el listado detallado a continuacion.
 
-##<ins>Checklist</ins>
+## <ins>Checklist</ins>
 
-###• **_Estructura del Proyecto:_**
+### • **_Estructura del Proyecto:_**
 
 Archivo "index.html" ubicado en la raíz.
 
@@ -17,7 +17,7 @@ Carpeta "css" que contenga el archivo "styles.css".
 
 Carpeta "img" para recursos gráficos.
 
-###• **_Repositorio y Publicación:_**
+### • **_Repositorio y Publicación:_**
 
 Repositorio en GitHub creado.
 
@@ -25,13 +25,13 @@ Proyecto subido al repositorio.
 
 Proyecto publicado utilizando GitHub Pages - https://nicocris.github.io/
 
-###• **_Uso de Google Fonts:_**
+### • **_Uso de Google Fonts:_**
 
 Enlace a Google Fonts incluido en la sección "head" del HTML - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap
 
 La tipografía utilizada fue ROBOTO, debido a la claridad visual a la hora de la interaccion del usuario con la pagina.
 
-###• **_HTML:_**
+### • **_HTML:_**
 
 El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
 
@@ -47,7 +47,7 @@ Barra de navegación ("nav") presente y contiene 4 enlaces.
 
 Se han insertado al menos 4 comentarios explicativos en el código HTML.
 
-###• **_CSS:_**
+### • **_CSS:_**
 
 Existe el archivo "styles.css" con estilos personalizados.
 
@@ -75,7 +75,7 @@ Redacta: ¿Qué animación o transición implementaste y por qué consideraste q
 
 Respuesta: Implemente un cambio de estilo en el boton enviar del formulario para destacar al momento previo de enviar el mismo. Como asi tambien destacar los puntos de habilidades y peliculas para enfatizar donde se encuentra ubicado el puntero.
 
-###• **_Consideraciones Adicionales:_**
+### • **_Consideraciones Adicionales:_**
 
 El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 
