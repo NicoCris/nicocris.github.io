@@ -84,6 +84,7 @@ nav .link:hover{ /*Modificacion de los hipervinculos cuando pasa el puntero*/
 
 .card h1{
     font-size: 1em;
+    border-bottom: 1px solid #222;
 }
 
 .listado{
