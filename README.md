@@ -1,3 +1,5 @@
+<img width="200" height="188" alt="image" src="https://github.com/user-attachments/assets/6dde4b7b-53fb-4752-8401-ddceea85fd63" />
+
 # Práctica Formativa Obligatoria 1
 
 Creacion de primer repositorio en Github para la Práctica Formativa Obligatoria 1 en el IFTS N° 29
@@ -5,9 +7,9 @@ Creacion de primer repositorio en Github para la Práctica Formativa Obligatoria
 Se basa en el primer proyecto creado en un repositorio en Github y se efectua el deploy a través de Vercel. 
 Asimismo, se realizó el mismo siguiendo los lineamienrtos acorde el listado detallado a continuacion.
 
-#Checklist
+**Checklist**
 
-• Estructura del Proyecto:
+• **Estructura del Proyecto:**
 
 Archivo "index.html" ubicado en la raíz.
 
@@ -15,9 +17,7 @@ Carpeta "css" que contenga el archivo "styles.css".
 
 Carpeta "img" para recursos gráficos.
 
-[X] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
-
-• Repositorio y Publicación:
+• **Repositorio y Publicación:**
 
 Repositorio en GitHub creado.
 
@@ -25,13 +25,13 @@ Proyecto subido al repositorio.
 
 Proyecto publicado utilizando GitHub Pages - https://nicocris.github.io/
 
-• Uso de Google Fonts:
+• **Uso de Google Fonts:**
 
 Enlace a Google Fonts incluido en la sección "head" del HTML - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap
 
 La tipografía utilizada fue ROBOTO, debido a la claridad visual a la hora de la interaccion del usuario con la pagina.
 
-• HTML: 
+• **HTML:**
 
 El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
 
@@ -47,7 +47,7 @@ Barra de navegación ("nav") presente y contiene 4 enlaces.
 
 Se han insertado al menos 4 comentarios explicativos en el código HTML.
 
-• CSS:
+• **CSS:**
 
 Existe el archivo "styles.css" con estilos personalizados.
 
@@ -75,7 +75,7 @@ Redacta: ¿Qué animación o transición implementaste y por qué consideraste q
 
 Respuesta: Implemente un cambio de estilo en el boton enviar del formulario para destacar al momento previo de enviar el mismo. Como asi tambien destacar los puntos de habilidades y peliculas para enfatizar donde se encuentra ubicado el puntero.
 
-• Consideraciones Adicionales:
+• **Consideraciones Adicionales:**
 
 El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 
