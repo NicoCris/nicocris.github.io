@@ -3,10 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>PFO 1 Cristian Nicoletti</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>¡Hola, mundo!</h1>
-    <p>Esta es mi primera página web en GitHub.</p>
+
+    <header>
+
+        <img class="logo" src="img/logo.jpeg" alt="logo">
+        <h1>Mi portafolio personal</h1>
+
+
+    </header>
+
+    <nav>
+            <a class="link" href="#sobre_mi">
+                <h3>Sobre mi</h3>
+            </a>
+
+            <a class="link" href="#habilidades">
+                <h3>Habilidades</h3>
+            </a>
+
+            <a class="link" href="#habilidades">
+                <h3>Peliculas</h3>
+            </a>
+
+            <a class="link" href="#contacto">
+                <h3>Contacto</h3>
+            </a>
+
+    </nav>
+
+    <main>
+
+        <div class="foto_perfil">
+                <img src="img/foto_perfil.jpeg" alt="foto_perfil">
+        </div>
+
+        <section class="categorias">
+
+            
+            
+            <article class="card" id="sobre_mi">
+
+                <div>
+
+                    <h1>Sobre mi</h1>
+
+                    <p>Me defino como un entusiasta del aprendizaje constante y un apasionado de la tecnología. 
+                        Combino la disciplina y el orden del trabajo administrativo con la capacidad lógica y creativa que requiere el desarrollo web. 
+                        Mi objetivo es integrar un equipo de desarrollo donde pueda aplicar mis conocimientos y seguir creciendo profesionalmente.</p>
+
+                </div>
+
+            </article>
+
+            <article class="card" id="habilidades">
+
+                <h1>Habilidades</h1>
+
+                <div>
+
+                    <div class="listado">
+                    <div class="item">
+                       <p>Programacion</p>
+                    </div>
+
+                    <div class="item">
+                       <p>Organizacion</p>
+                    </div>
+
+                    <div class="item">
+                       <p>Trabajo en Equipo</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="card" id="peliculas">
+
+                <h1>Peliculas favoritas</h1>
+
+                <div class="listado">
+                    <div class="item">
+                       <p>1. El señor de los anillos</p>
+                    </div>
+
+                    <div class="item">
+                       <p>2 .Rocky IV</p>
+                    </div>
+
+                    <div class="item">
+                       <p>3. En busca de la felicidad</p>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <section class="formulario" id="contacto">
+
+            <div>
+
+                <h3>Contacto</h3>
+
+                <form action="" method="post" class="form">
+        
+                    <label for="" class="form_label">Nombre:</label>
+                    <input type="text" name="nombre" class="form_input_txt" placeholder="Ingresar nombre y apellido completo">
+                        
+                    <label for="" class="form_label">Mail:</label>
+                    <input type="text" name="mail" class="form_input_txt" placeholder="Ingresar correo electronico personal">
+                        
+                    <label for="" class="form_label">Telefono:</label>
+                    <input type="text" name="telefono" class="form_input_txt" placeholder="Ingresar telefono con su codigo de area">
+                            
+                    <label for="" class="form_label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="form_textarea" placeholder="Escribir dudas y consultas de habilidades, proyedctos y/o solicitudes"></textarea>
+                        
+                    <input type="submit" class="btnform" value="Enviar">
+            
+                </form>
+
+            </div>
+
+        </section>
+
+        <aside>
+
+
+        </aside>
+
+
+    </main>
+
+    <footer>
+
+        <div class="social-container">
+            <a href="https://wa.me/TUNUMERO" class="social-link" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <a href="https://www.facebook.com/TUPERFIL" class="social-link" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        
+            <a href="https://x.com/TUPERFIL" class="social-link" target="_blank">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+
+        <div class="copyright">
+            <p> © 2026 Todos los derechos reservados para el Instituto IFTS N° 29 </p>
+        </div>
+
+    </footer>
+
 </body>
 </html>

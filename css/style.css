@@ -1,0 +1,211 @@
+body{ /*Seteo los valores por defecto*/
+    display: block;
+    background-color: #2e97b7;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita desplazamientos laterales innecesarios */
+}
+
+main{
+    margin: 10px 80px 0px 80px; /*Centraliza la informacion en la pagina*/
+}
+
+header{
+    margin: 10px 80px 0px 80px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .logo{
+    display: flex;
+    border-radius: 20px;
+    width: 4em;
+    justify-self: center;
+}
+
+header h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 2px solid #222;
+    border-bottom-style: double;
+}
+
+nav{
+    margin: 10px 80px 0px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #222;
+    border-top-style: double;
+    padding: 0px 10px;
+    justify-content:space-between;
+}
+
+nav .link{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #222;
+}
+
+nav .link:hover{ /*Modificacion de los hipervinculos cuando pasa el puntero*/
+    text-decoration:underline;
+    color:antiquewhite;
+    transition: 0.5s;
+}
+
+.foto_perfil {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente si el div tiene altura */
+    width: 100%;        /* Espaciado opcional arriba y abajo */
+}
+
+.foto_perfil img { /*Personaliza la foto de perfil*/
+    border-radius: 50px;
+    max-width: 300px;        
+    height: auto;
+    border: 1px solid #222;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    margin: 0px 10px;
+    text-align: justify;
+}
+
+.card h1{
+    font-size: 1em;
+}
+
+.listado{
+    display: block;
+}
+
+.listado .item{
+    border: 2px solid #222;
+    border-left: 3px solid white;
+    color: #aaa;
+    background: #222;
+    margin: 5px 0px;
+    padding: 0px 5px;
+    font-size: 0.8em;
+    border-radius: 8px;
+}
+
+.item:hover{ /*Modificacion de los items cuando pasa el puntero*/
+    transform: translateX(4px);
+    opacity: 0.8;
+    box-shadow: white;
+    transition: all 0.5s ease; 
+}
+
+.formulario{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 10px 40px;
+    border: 2px solid #222;
+    border-radius: 12px;
+    font-size: 1em;
+    text-align:left;
+}
+
+.form input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-style: hidden;
+    margin-bottom: 10px;
+}
+
+.form label {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnform {
+    display: block;
+    background-color: brown;
+    margin-top: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.btnform:hover {
+    background-color: white;
+    margin-top: 10px;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 12px;
+    text-decoration: solid;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    
+}
+
+.social-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px; /* Espacio entre los bloques de redes sociales */
+}
+
+.social-link {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center; /* Centra verticalmente el icono con el texto */
+    gap: 8px; /* Espacio específico entre el icono y el texto */
+    transition: color 0.3s; /* Suaviza el cambio de color */
+}
+
+/* Colores de marca al pasar el mouse (hover) */
+.social-link:hover {
+    color: #25d366; /* Color oficial de WhatsApp */
+}
+
+.social-link:nth-child(2):hover {
+    color: #1877f2; /* Color oficial de Facebook */
+}
+
+.social-link:nth-child(3):hover {
+    color: white; /* Color blanco para X */
+}
+
+.copyright{
+    color: #aaa;
+    text-align: center;
+}
