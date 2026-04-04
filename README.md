@@ -25,6 +25,8 @@ Proyecto subido al repositorio.
 
 Proyecto publicado utilizando GitHub Pages - https://nicocris.github.io/
 
+Proyecto publicado utilizando Vercel - https://nicocris-github-io.vercel.app/
+
 ### • **_Uso de Google Fonts:_**
 
 Enlace a Google Fonts incluido en la sección "head" del HTML - https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap
